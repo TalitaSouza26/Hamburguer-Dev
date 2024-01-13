@@ -1,5 +1,5 @@
 const menuOptions = [
-    { name: 'X-Bacon', price: 34.00, vegan: false, src: './Assets/X-Bacon.jpg' },
+    { name: 'X-bacon', price: 34.00, vegan: false, src: './Assets/X-Bacon.jpg' },
     { name: 'X-Bahia', price: 30.00, vegan: false, src: './Assets/X-Bahia.jpg' },
     { name: 'X-Barriga', price: 34, vegan: false, src: './Assets/X-Barriga.jpg' },
     { name: 'X-Chaves Egg', price: 39, vegan: false, src: './Assets/X-Chaves.jpg' },
@@ -13,7 +13,7 @@ const menuOptions = [
     { name: 'X-love', price: 60, vegan: false, src: './Assets/X-love.jpg'},
     { name: 'X-Madruga', price: 60, vegan: false, src: './Assets/X-Madruga.jpg'},
     { name: 'X-Grão', price: 45, vegan: true, src: './Assets/X-Grão.png' },
-    { name: 'X-Monstro', price: 25, vegan: false, src: './Assets/X-Monstro.jpg' },
+    { name: 'X-monstro', price: 25, vegan: false, src: './Assets/X-Monstro.jpg' },
     { name: 'X-Combo Feliz', price: 25, vegan: false, src: './Assets/X-Combo2.jpg' },
     { name: 'X-Combo Alegre', price: 25, vegan: false, src: './Assets/X-Combo1.jpg' },
     { name: 'X-Combo Festa', price: 25, vegan: false, src: './Assets/X-Combo3.jpg' },
