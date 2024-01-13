@@ -1,7 +1,5 @@
 <h1>Landing Page Teste </h1>
 
-https://talitasouza26.github.io/Hamburguer-Dev/
-
 <h3> Tecnologias usadas
   <ul>
     <li>
