@@ -11,7 +11,7 @@
 body {
     background-color: #ffff00;
     overflow: hidden;
-  
+
 }
 
 section {
@@ -47,14 +47,17 @@ header {
 
 }
 
-.espaco{
+.espaco {
     width: 540px;
-   
+
 }
 
 
 .box {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
     font-size: 20px;
     font-weight: bolder;
 }
@@ -81,7 +84,7 @@ header {
     max-width: 350px;
     position: relative;
     left: 150px;
-  
+
 
 }
 
@@ -96,7 +99,7 @@ header {
     height: 100vh;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .burguer {
@@ -104,17 +107,17 @@ header {
 }
 
 
-.burguers{
+.burguers {
     list-style: none;
     display: flex;
     justify-content: center;
     align-items: center;
     display: grid;
-    grid-template-columns: 200px 200px 200px ;
+    grid-template-columns: 200px 200px 200px;
     margin-top: 30px;
 }
 
-.boxburguers{
+.boxburguers {
     padding: 5px;
     border: 2px solid #000000;
     border-radius: 5px;
@@ -126,33 +129,34 @@ header {
     overflow: hidden;
 }
 
- .boxburguers > img{
+.boxburguers>img {
     width: 100%;
     height: 100px;
     border-radius: 5px;
 }
 
-.descrition{
+.descrition {
     font-size: 16px;
     font-weight: bold;
     color: #ffffff;
     background: #e98c00e8;
     text-align: center;
 }
-.price{
+
+.price {
     color: #000000;
     background: #000000;
     font-weight: bold;
     color: #ffffff;
     text-align: center;
- 
+
 }
+
 .boxConheca {
     font-size: 35px;
-    font-family: 'Lilita One', sans-serif;
+    font-family: 'Lilita One', sns-serif;
     margin-left: 300px;
     text-align: start
-   
 }
 
 button {
@@ -168,58 +172,77 @@ button {
     font-size: 20px;
 }
 
-button:active{
+button:active {
     background: #ffffff;
     color: black;
 }
 
-.cliquecardapio{
-   
+.divbar {
+    background: rgb(248, 246, 246);
+    height: 2px;
+    width: 25px;
+    margin-top: 5px;
+    margin-left: 5px;
+    display: none;
+}
+
+.cliquecardapio {
+
     width: 700px;
     height: 650px;
     overflow: scroll;
     margin-left: 90px;
-
-      
 }
 
-.cliquecardapio::-webkit-scrollbar{
+.cliquecardapio::-webkit-scrollbar {
     width: 10px;
     height: 100%;
     border-radius: 5px;
 
 }
-.cliquecardapio::-webkit-scrollbar-thumb{
-     
+
+.cliquecardapio::-webkit-scrollbar-thumb {
+
     width: 8px;
     height: 10px;
-   background-color: rgba(19, 19, 19, 0.736);
-   border-radius: 5px;
+    background-color: rgba(19, 19, 19, 0.736);
+    border-radius: 5px;
 }
 
- @media (width < 1000px){
-       
-      .oferta{
-        display: none;
-      }
-       
 
-      section{
+@media (width < 1000px) {
+
+    .divbar {
+        display: block;
+    }
+
+    .oferta {
+        display: none;
+    }
+
+
+    .mobile {
+        display: none;
+        position: absolute;
+        top: 90%;
         display: flex;
-        flex-direction: row-reverse
-      }
-    
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        background: white;
+        padding: 15px;
 
-      .imgDestaq{
+    }
+
+
+    .imgDestaq {
         display: none;
-      }
-    
-      
-      .cliquecardapio{
-        border:  solid rgb(223, 18, 18);
-   
-        margin-left: 150px;
-    
-        
-      }
- }
+    }
+
+    .cliquecardapio {
+        margin: 0 auto;
+        margin-top: 200px;
+
+    }
+
+}
